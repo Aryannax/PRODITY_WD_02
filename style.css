@@ -1,0 +1,93 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(158, 186, 232);
+}
+
+#myH1 {
+    font-size: 4rem;
+    font-family: "Arial", sans-serif;
+    color: rgb(38, 45, 81);
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    border: 3px solid;
+    border-radius: 50px;
+    background-color: rgb(225, 249, 255);
+}
+
+#display {
+    font-size: 5rem;
+    font-family: monospace;
+    font-weight: bold;
+    color: hsl(0, 0%, 90%);
+    text-shadow: 2px 2px 2px hsl(0, 0%, 0%, 0.75);
+    margin-bottom: 25px;
+}
+
+#controls {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#controls button {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(206, 240, 249);
+    transition: background-color 0.5s ease;
+}
+
+#startBtn {
+    background: hsl(180, 1%, 37%);
+}
+
+#startBtn:hover {
+    background: hsl(180, 1%, 27%);
+}
+
+#stopBtn {
+    background: hsl(0, 0%, 7%);
+}
+
+#stopBtn:hover {
+    background: hsl(0, 0%, 0%);
+}
+
+#resetBtn {
+    background: hsl(204, 40%, 31%);
+}
+
+#resetBtn:hover {
+    background: hsl(205, 58%, 22%);
+}
+
+#lapBtn {
+    background: hsl(169, 52%, 33%);
+}
+
+#lapBtn:hover {
+    background: hsl(158, 57%, 30%);
+}
+
+#laps {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-family: Arial, sans-serif;
+    color: hsl(0, 0%, 20%);
+}
+
+#laps div {
+    margin-bottom: 5px;
+}
